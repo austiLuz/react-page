@@ -50,14 +50,30 @@
     .gpt3__features-container__feature-title h1 {
         font-size: 14px;
         line-height: 22px;
+        flex: 1;
+        max-width: 50px;
+        display: flex;
+        word-wrap: break-word;
+    }
+
+    .gpt3__features-container_feature-text {
+        flex: 1;
+        max-width: 90px;
+        display: flex;
+        word-wrap: break-word;
     }
 
     .gpt3__features-container_feature-text p {
         font-size: 12px;
         line-height: 20px;
+        flex: 1;
+        max-width: 90px;
+        display: flex;
+        word-wrap: break-word;
     }
 
     .gpt3__features-container__feature {
         margin: 1rem 0;
     }
+
 }
